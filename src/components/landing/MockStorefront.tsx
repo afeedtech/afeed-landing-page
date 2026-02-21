@@ -2,7 +2,7 @@ import { useTranslation } from 'react-i18next';
 import { useLanguage } from '@/context/LanguageContext';
 import { cn } from '@/lib/utils';
 import { formatCurrency } from '@/lib/formatters';
-import { Link2 } from 'lucide-react';
+import { Share2 } from 'lucide-react';
 import abdullahProfile from '@/assets/abdullah-profile.jpg';
 import mockCover from '@/assets/mock-cover-marble.jpg';
 import mockProduct1 from '@/assets/mock-product-1.jpg';
@@ -43,7 +43,7 @@ export function MockStorefront() {
     : ['Products', 'Live', 'Appointments', 'Archive'];
 
   return (
-    <div className="relative bg-card rounded-2xl sm:rounded-3xl border border-border/50 shadow-2xl overflow-hidden max-w-[320px] mx-auto">
+    <div className="relative bg-card rounded-2xl sm:rounded-3xl border border-border/50 shadow-2xl overflow-hidden max-w-[360px] mx-auto">
       {/* Cover image */}
       <div className="relative h-28 sm:h-32 overflow-hidden">
         <img src={mockCover} alt="" className="w-full h-full object-cover grayscale" />
@@ -102,7 +102,7 @@ export function MockStorefront() {
             </span>
             {/* Top-right share icon */}
             <span className="absolute top-1.5 end-1.5 z-10 w-5 h-5 sm:w-6 sm:h-6 rounded-full bg-white/60 backdrop-blur-md flex items-center justify-center shadow-sm">
-              <Link2 className="w-2.5 h-2.5 sm:w-3 sm:h-3 text-muted-foreground" />
+              <Share2 className="w-2.5 h-2.5 sm:w-3 sm:h-3 text-muted-foreground" />
             </span>
             {/* Bottom glassmorphism overlay */}
             <div className="absolute inset-x-0 bottom-0 z-10 p-2 pt-6 bg-gradient-to-t from-black/70 via-black/40 to-transparent backdrop-blur-[2px]">

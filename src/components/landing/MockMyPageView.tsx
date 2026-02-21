@@ -2,7 +2,7 @@ import { useTranslation } from 'react-i18next';
 import { cn } from '@/lib/utils';
 import { useLanguage } from '@/context/LanguageContext';
 import { formatCurrency } from '@/lib/formatters';
-import { Link2 } from 'lucide-react';
+import { Share2 } from 'lucide-react';
 import abdullahProfile from '@/assets/abdullah-profile.jpg';
 import mockCover from '@/assets/mock-cover-marble.jpg';
 import afeedLogoIcon from '@/assets/afeed-logo-icon.svg';
@@ -148,7 +148,7 @@ export function MockMyPageView() {
                 </span>
                 {/* Top-right icon */}
                 <span className="absolute top-1 end-1 z-10 w-4 h-4 sm:w-5 sm:h-5 rounded-full bg-white/60 backdrop-blur-md flex items-center justify-center shadow-sm">
-                  <Link2 className="w-2 h-2 sm:w-2.5 sm:h-2.5 text-muted-foreground" />
+                  <Share2 className="w-2 h-2 sm:w-2.5 sm:h-2.5 text-muted-foreground" />
                 </span>
                 {/* Bottom glassmorphism overlay */}
                 <div className="absolute inset-x-0 bottom-0 z-10 p-1.5 pt-5 bg-gradient-to-t from-black/70 via-black/40 to-transparent backdrop-blur-[2px]">
