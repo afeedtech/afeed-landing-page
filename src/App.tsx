@@ -7,6 +7,7 @@ import { SegmentsProvider } from "./context/SegmentsContext";
 import { ProfileProvider } from "./context/ProfileContext";
 import { LanguageProvider } from "./context/LanguageContext";
 import LandingPage from "./pages/LandingPage";
+import LandingPageEN from "./pages/LandingPageEN";
 import ContactPage from "./pages/ContactPage";
 import NotFound from "./pages/NotFound";
 const queryClient = new QueryClient();
@@ -22,6 +23,7 @@ const App = () => (
             <BrowserRouter>
               <Routes>
                 <Route path="/" element={<LandingPage />} />
+                <Route path="/en" element={<LandingPageEN />} />
                 <Route path="/contact" element={<ContactPage />} />
                 <Route path="*" element={<NotFound />} />
               </Routes>
