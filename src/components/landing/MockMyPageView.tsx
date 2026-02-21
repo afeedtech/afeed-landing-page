@@ -22,23 +22,20 @@ export function MockMyPageView() {
     {
       image: mockProduct1,
       badge: lang === 'ar' ? 'مجاني' : 'Free',
-      badgeColor: 'bg-emerald-500',
+      badgeColor: 'bg-primary',
       title: lang === 'ar' ? 'أساسيات المبيعات' : 'Sales Fundamentals',
-      price: null,
     },
     {
       image: mockProduct2,
-      badge: lang === 'ar' ? 'خصم 20%' : '20% OFF',
+      badge: formatCurrency(40, lang),
       badgeColor: 'bg-primary',
       title: lang === 'ar' ? '٥ خطوات لإغلاق الصفقات' : '5 Steps to Close Deals',
-      price: 39.99,
     },
     {
       image: mockProduct1,
-      badge: lang === 'ar' ? 'جديد' : 'New',
-      badgeColor: 'bg-amber-500',
+      badge: formatCurrency(30, lang),
+      badgeColor: 'bg-primary',
       title: lang === 'ar' ? 'فن التفاوض' : 'Art of Negotiation',
-      price: 29.99,
     },
   ];
 
@@ -156,9 +153,7 @@ export function MockMyPageView() {
                     {product.title}
                   </p>
                   <button className="w-full mt-1 py-0.5 rounded-full bg-primary text-primary-foreground text-[7px] sm:text-[8px] font-semibold shadow-sm">
-                    {product.price
-                      ? formatCurrency(product.price, lang)
-                      : (lang === 'ar' ? 'مجاني' : 'Free')}
+                    {lang === 'ar' ? 'عرض الإعدادات' : 'View Settings'}
                   </button>
                 </div>
               </div>
