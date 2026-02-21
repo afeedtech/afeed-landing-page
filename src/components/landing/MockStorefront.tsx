@@ -20,14 +20,12 @@ export function MockStorefront() {
       badge: lang === 'ar' ? 'مجاني' : 'Free',
       badgeColor: 'bg-primary',
       title: lang === 'ar' ? 'أساسيات المبيعات' : 'Sales Fundamentals',
-      price: null,
     },
     {
       image: mockProduct2,
-      badge: lang === 'ar' ? 'خصم 20%' : '20% OFF',
+      badge: formatCurrency(40, lang),
       badgeColor: 'bg-primary',
       title: lang === 'ar' ? '٥ خطوات لإغلاق الصفقات' : '5 Steps to Close Deals',
-      price: 39.99,
     },
   ];
 
@@ -103,9 +101,7 @@ export function MockStorefront() {
                 {product.title}
               </p>
               <button className="w-full mt-1.5 py-1 rounded-full bg-primary text-primary-foreground text-[9px] sm:text-[10px] font-semibold shadow-sm">
-                {product.price
-                  ? formatCurrency(product.price, lang)
-                  : (lang === 'ar' ? 'مجاني' : 'Free')}
+                {lang === 'ar' ? 'اشترك' : 'Subscribe'}
               </button>
             </div>
           </div>
