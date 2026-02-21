@@ -18,7 +18,7 @@ export function MockStorefront() {
     {
       image: mockProduct1,
       badge: lang === 'ar' ? 'مجاني' : 'Free',
-      badgeColor: 'bg-emerald-500',
+      badgeColor: 'bg-primary',
       title: lang === 'ar' ? 'أساسيات المبيعات' : 'Sales Fundamentals',
       price: null,
     },
@@ -32,18 +32,18 @@ export function MockStorefront() {
     {
       image: mockProduct1,
       badge: lang === 'ar' ? 'جديد' : 'New',
-      badgeColor: 'bg-amber-500',
+      badgeColor: 'bg-primary',
       title: lang === 'ar' ? 'فن التفاوض' : 'Art of Negotiation',
       price: 29.99,
     },
   ];
 
   const tabs = lang === 'ar'
-    ? ['المنتجات', 'مباشر', 'المواعيد', 'الأرشيف']
-    : ['Products', 'Live', 'Appointments', 'Archive'];
+    ? ['المنتجات', 'مباشر', 'الأرشيف']
+    : ['Products', 'Live', 'Archive'];
 
   return (
-    <div className="relative bg-card rounded-2xl sm:rounded-3xl border border-border/50 shadow-2xl overflow-hidden max-w-[360px] mx-auto">
+    <div className="relative bg-card rounded-2xl sm:rounded-3xl border border-border/50 shadow-2xl overflow-hidden max-w-[300px] mx-auto aspect-[9/16]">
       {/* Cover image */}
       <div className="relative h-28 sm:h-32 overflow-hidden">
         <img src={mockCover} alt="" className="w-full h-full object-cover grayscale" />
