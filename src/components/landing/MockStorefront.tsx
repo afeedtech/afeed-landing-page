@@ -29,13 +29,6 @@ export function MockStorefront() {
       title: lang === 'ar' ? '٥ خطوات لإغلاق الصفقات' : '5 Steps to Close Deals',
       price: 39.99,
     },
-    {
-      image: mockProduct1,
-      badge: lang === 'ar' ? 'جديد' : 'New',
-      badgeColor: 'bg-primary',
-      title: lang === 'ar' ? 'فن التفاوض' : 'Art of Negotiation',
-      price: 29.99,
-    },
   ];
 
   const tabs = lang === 'ar'
@@ -43,7 +36,7 @@ export function MockStorefront() {
     : ['Products', 'Live', 'Archive'];
 
   return (
-    <div className="relative bg-card rounded-2xl sm:rounded-3xl border border-border/50 shadow-2xl overflow-hidden max-w-[300px] mx-auto aspect-[9/16]">
+    <div className="relative bg-card rounded-2xl sm:rounded-3xl border border-border/50 shadow-2xl overflow-hidden max-w-[300px] mx-auto aspect-[9/16] flex flex-col">
       {/* Cover image */}
       <div className="relative h-28 sm:h-32 overflow-hidden">
         <img src={mockCover} alt="" className="w-full h-full object-cover grayscale" />
@@ -87,8 +80,8 @@ export function MockStorefront() {
         ))}
       </div>
 
-      {/* Product grid - full-bleed image cards */}
-      <div className="grid grid-cols-3 gap-2 p-3">
+      {/* Product grid - 2 larger cards */}
+      <div className="grid grid-cols-2 gap-3 p-3 flex-1">
         {products.map((product, i) => (
           <div key={i} className="relative rounded-2xl overflow-hidden border border-border/50 shadow-sm aspect-[3/4]">
             {/* Full-bleed product image */}
@@ -119,8 +112,8 @@ export function MockStorefront() {
         ))}
       </div>
 
-      {/* Footer */}
-      <div className="flex items-center justify-center gap-1.5 py-3 border-t border-border text-[9px] sm:text-[10px] text-muted-foreground">
+      {/* Footer - pinned to bottom */}
+      <div className="mt-auto flex items-center justify-center gap-1.5 py-3 border-t border-border text-[9px] sm:text-[10px] text-muted-foreground">
         <span>{lang === 'ar' ? 'مدعوم من' : 'Powered by'}</span>
         <img src={afeedLogoEn} alt="afeed" className="h-5 -mt-px" />
       </div>
