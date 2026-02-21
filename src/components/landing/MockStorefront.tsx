@@ -2,6 +2,7 @@ import { useTranslation } from 'react-i18next';
 import { useLanguage } from '@/context/LanguageContext';
 import { cn } from '@/lib/utils';
 import { formatCurrency } from '@/lib/formatters';
+import { Link2 } from 'lucide-react';
 import abdullahProfile from '@/assets/abdullah-profile.jpg';
 import mockCover from '@/assets/mock-cover-marble.jpg';
 import mockProduct1 from '@/assets/mock-product-1.jpg';
@@ -16,24 +17,24 @@ export function MockStorefront() {
   const products = [
     {
       image: mockProduct1,
-      discount: lang === 'ar' ? 'خصم 20%' : '20% OFF',
+      badge: lang === 'ar' ? 'مجاني' : 'Free',
+      badgeColor: 'bg-emerald-500',
       title: lang === 'ar' ? 'أساسيات المبيعات' : 'Sales Fundamentals',
-      price: 39.99,
-      oldPrice: 49.99,
+      price: null,
     },
     {
       image: mockProduct2,
-      discount: lang === 'ar' ? 'خصم 20%' : '20% OFF',
+      badge: lang === 'ar' ? 'خصم 20%' : '20% OFF',
+      badgeColor: 'bg-primary',
       title: lang === 'ar' ? '٥ خطوات لإغلاق الصفقات' : '5 Steps to Close Deals',
       price: 39.99,
-      oldPrice: 49.99,
     },
     {
       image: mockProduct1,
-      discount: lang === 'ar' ? 'خصم 20%' : '20% OFF',
+      badge: lang === 'ar' ? 'جديد' : 'New',
+      badgeColor: 'bg-amber-500',
       title: lang === 'ar' ? 'فن التفاوض' : 'Art of Negotiation',
-      price: 39.99,
-      oldPrice: 49.99,
+      price: 29.99,
     },
   ];
 
@@ -86,35 +87,35 @@ export function MockStorefront() {
         ))}
       </div>
 
-      {/* Product grid */}
+      {/* Product grid - updated card style */}
       <div className="grid grid-cols-3 gap-2 p-3">
         {products.map((product, i) => (
-          <div key={i} className="rounded-xl overflow-hidden bg-muted/30 border border-border/50">
-            {/* Product image */}
+          <div key={i} className="rounded-2xl overflow-hidden bg-card border border-border/50 shadow-sm">
+            {/* Product image with overlaid badges */}
             <div className="relative aspect-[4/5] overflow-hidden">
               <img src={product.image} alt={product.title} className="w-full h-full object-cover" />
-              {/* Badges */}
-              <div className="absolute bottom-1.5 left-1 flex gap-0.5">
-                <span className="text-[7px] sm:text-[8px] font-semibold bg-card/90 backdrop-blur-sm text-primary px-1 py-0.5 rounded">
-                  {product.discount}
-                </span>
-              </div>
+              {/* Top-left badge */}
+              <span className={cn(
+                "absolute top-1.5 start-1.5 text-[7px] sm:text-[8px] font-bold text-white px-1.5 py-0.5 rounded-full shadow-sm",
+                product.badgeColor
+              )}>
+                {product.badge}
+              </span>
+              {/* Top-right share icon */}
+              <span className="absolute top-1.5 end-1.5 w-5 h-5 sm:w-6 sm:h-6 rounded-full bg-card/80 backdrop-blur-sm flex items-center justify-center shadow-sm">
+                <Link2 className="w-2.5 h-2.5 sm:w-3 sm:h-3 text-muted-foreground" />
+              </span>
             </div>
             {/* Product info */}
-            <div className="p-2">
-              <p className="text-[10px] sm:text-xs font-medium text-foreground leading-tight line-clamp-2 min-h-[2.5em]">
+            <div className="p-2 pt-2.5">
+              <p className="text-[10px] sm:text-xs font-semibold text-foreground leading-tight line-clamp-2 min-h-[2.5em]">
                 {product.title}
               </p>
-              <div className="mt-1.5">
-                <span className="text-[10px] sm:text-xs font-bold text-primary">
-                  {formatCurrency(product.price, lang)}
-                </span>
-                <span className="text-[8px] sm:text-[10px] text-muted-foreground line-through ms-1.5">
-                  {formatCurrency(product.oldPrice, lang)}
-                </span>
-              </div>
-              <button className="w-full mt-2 py-1.5 rounded-full bg-primary text-primary-foreground text-[10px] sm:text-xs font-semibold">
-                {lang === 'ar' ? 'تعديل' : 'Edit'}
+              {/* CTA button */}
+              <button className="w-full mt-2 py-1.5 rounded-full bg-primary text-primary-foreground text-[10px] sm:text-xs font-semibold shadow-sm">
+                {product.price
+                  ? formatCurrency(product.price, lang)
+                  : (lang === 'ar' ? 'مجاني' : 'Free')}
               </button>
             </div>
           </div>
