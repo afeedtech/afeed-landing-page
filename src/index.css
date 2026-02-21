@@ -1,0 +1,472 @@
+@import url('https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:ital,wght@0,400;0,500;0,600;0,700;0,800;1,400;1,500;1,600;1,700;1,800&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+
+@layer base {
+  :root {
+    --background: 225 20% 98%;
+    --foreground: 230 15% 12%;
+
+    --card: 0 0% 100%;
+    --card-foreground: 230 15% 12%;
+
+    --popover: 0 0% 100%;
+    --popover-foreground: 230 15% 12%;
+
+    /* Primary = Blue #1A70F0 */
+    --primary: 213 87% 52%;
+    --primary-foreground: 0 0% 100%;
+
+    --secondary: 225 12% 94%;
+    --secondary-foreground: 230 15% 12%;
+
+    --muted: 225 10% 92%;
+    --muted-foreground: 225 8% 45%;
+
+    /* Accent = Light Blue for backgrounds */
+    --accent: 213 100% 95%;
+    --accent-foreground: 230 15% 12%;
+
+    --destructive: 0 72% 51%;
+    --destructive-foreground: 0 0% 100%;
+
+    --border: 225 12% 88%;
+    --input: 225 12% 88%;
+    --ring: 213 87% 52%;
+
+    --radius: 0.5rem;
+
+    --sidebar-background: 235 25% 10%;
+    --sidebar-foreground: 225 10% 95%;
+    --sidebar-primary: 213 87% 52%;
+    --sidebar-primary-foreground: 0 0% 100%;
+    --sidebar-accent: 235 20% 16%;
+    --sidebar-accent-foreground: 225 10% 95%;
+    --sidebar-border: 235 18% 15%;
+    --sidebar-ring: 213 87% 52%;
+
+    /* Afeed Brand Colors - Blue Palette */
+    --brand-primary: 213 87% 52%;       /* #1A70F0 - Primary blue */
+    --brand-primary-hover: 213 85% 40%; /* #0D4F9C - Darker for hover */
+    --brand-primary-active: 213 80% 35%; /* Darkest for active */
+    --brand-secondary: 225 12% 94%;     /* Neutral for secondary buttons */
+    --brand-neutral: 0 0% 5%;           /* #0C0C0C - Text, headings */
+    --brand-disabled: 225 10% 70%;
+    --brand-light-accent: 213 100% 95%; /* #E8F2FF - Light blue accent */
+    --brand-highlight: 199 89% 60%;     /* Secondary/highlight color */
+    --brand-highlight-foreground: 0 0% 100%;
+    
+    /* Brand Gradient Primary - Blue gradient */
+    --brand-gradient-primary: linear-gradient(135deg, #4DA3FF 0%, #1A70F0 50%, #0D4F9C 100%);
+
+    /* Solid colors for UI (no gradients) */
+    --gradient-card: linear-gradient(145deg, hsl(0 0% 100%) 0%, hsl(225 12% 98%) 100%);
+    --gradient-sidebar: linear-gradient(180deg, hsl(235 25% 10%) 0%, hsl(235 22% 14%) 100%);
+    
+    --shadow-card: 0 1px 3px 0 hsl(230 15% 12% / 0.03), 0 1px 2px -1px hsl(230 15% 12% / 0.02);
+    --shadow-elevated: 0 10px 25px -8px hsl(235 20% 18% / 0.08), 0 4px 6px -4px hsl(230 15% 12% / 0.04);
+    --shadow-glow: 0 0 30px -8px hsl(213 87% 52% / 0.25);
+    --shadow-glow-primary: 0 0 30px -8px hsl(213 87% 52% / 0.25);
+    
+    /* Charts use brand colors */
+    --chart-1: 213 87% 52%;   /* Blue */
+    --chart-2: 195 100% 71%;  /* Cyan */
+    --chart-3: 45 100% 65%;   /* Yellow */
+    --chart-4: 160 60% 45%;   /* Green */
+    --chart-5: 280 60% 55%;   /* Purple */
+  }
+
+  .dark {
+    --background: 235 25% 6%;
+    --foreground: 225 10% 95%;
+
+    --card: 235 22% 9%;
+    --card-foreground: 225 10% 95%;
+
+    --popover: 235 22% 9%;
+    --popover-foreground: 225 10% 95%;
+
+    /* Primary = Blue #1A70F0 */
+    --primary: 213 87% 52%;
+    --primary-foreground: 0 0% 100%;
+
+    --secondary: 235 18% 14%;
+    --secondary-foreground: 225 10% 95%;
+
+    --muted: 235 16% 12%;
+    --muted-foreground: 225 8% 55%;
+
+    /* Accent = Blue */
+    --accent: 213 80% 25%;
+    --accent-foreground: 225 10% 95%;
+
+    --destructive: 0 62% 40%;
+    --destructive-foreground: 225 10% 95%;
+
+    --border: 235 18% 14%;
+    --input: 235 18% 14%;
+    --ring: 213 87% 52%;
+
+    --sidebar-background: 235 25% 6%;
+    --sidebar-foreground: 225 10% 95%;
+    --sidebar-primary: 213 87% 52%;
+    --sidebar-primary-foreground: 0 0% 100%;
+    --sidebar-accent: 235 18% 12%;
+    --sidebar-accent-foreground: 225 10% 95%;
+    --sidebar-border: 235 18% 10%;
+    --sidebar-ring: 213 87% 52%;
+
+    --gradient-sidebar: linear-gradient(180deg, hsl(235 25% 6%) 0%, hsl(235 20% 10%) 100%);
+  }
+}
+
+@layer base {
+  * {
+    @apply border-border;
+  }
+
+  body {
+    @apply bg-background text-foreground antialiased;
+    font-family: 'Plus Jakarta Sans', system-ui, sans-serif;
+  }
+
+  h1, h2, h3, h4, h5, h6 {
+    @apply font-semibold tracking-tight;
+    font-family: 'Plus Jakarta Sans', system-ui, sans-serif;
+  }
+}
+
+@layer components {
+  /* Brand gradient primary - for logo, primary buttons, key CTAs */
+  .brand-gradient-primary {
+    background: var(--brand-gradient-primary);
+  }
+
+  .brand-gradient-primary-hover:hover {
+    filter: brightness(0.92);
+  }
+
+  .brand-gradient-primary-active:active {
+    filter: brightness(0.88);
+  }
+
+  .card-elevated {
+    box-shadow: var(--shadow-elevated);
+  }
+
+  .card-glow {
+    box-shadow: var(--shadow-glow);
+  }
+
+  .card-glow-primary {
+    box-shadow: var(--shadow-glow-primary);
+  }
+
+  .animate-fade-in {
+    animation: fadeIn 0.5s ease-out forwards;
+  }
+
+  .animate-slide-up {
+    animation: slideUp 0.6s ease-out forwards;
+    opacity: 0;
+  }
+
+  .animate-scale-in {
+    animation: scaleIn 0.3s ease-out forwards;
+  }
+
+  .animate-float {
+    animation: float 6s ease-in-out infinite;
+  }
+
+  .animate-gradient {
+    background-size: 200% 200%;
+    animation: gradientShift 8s ease infinite;
+  }
+
+  .animate-glow {
+    animation: glow 2s ease-in-out infinite alternate;
+  }
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+@keyframes slideUp {
+  from {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@keyframes scaleIn {
+  from {
+    opacity: 0;
+    transform: scale(0.95);
+  }
+  to {
+    opacity: 1;
+    transform: scale(1);
+  }
+}
+
+@keyframes float {
+  0%, 100% {
+    transform: translateY(0px);
+  }
+  50% {
+    transform: translateY(-10px);
+  }
+}
+
+@keyframes shimmer {
+  0% {
+    background-position: -200% 0;
+  }
+  100% {
+    background-position: 200% 0;
+  }
+}
+
+@keyframes pulse-glow {
+  0%, 100% {
+    box-shadow: 0 0 20px -5px hsl(210 85% 55% / 0.25);
+  }
+  50% {
+    box-shadow: 0 0 30px -5px hsl(210 85% 55% / 0.45);
+  }
+}
+
+@keyframes gradientShift {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+
+@keyframes glow {
+  from {
+    box-shadow: 0 0 20px -10px hsl(var(--primary) / 0.5);
+  }
+  to {
+    box-shadow: 0 0 40px -10px hsl(var(--primary) / 0.8);
+  }
+}
+
+@keyframes rotateWordIn {
+  from {
+    opacity: 0;
+    transform: translateX(-30%);
+  }
+  to {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
+
+@keyframes rotateWordInRTL {
+  from {
+    opacity: 0;
+    transform: translateX(30%);
+  }
+  to {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
+
+.animate-rotate-word-in {
+  animation: rotateWordIn 0.4s ease-out forwards;
+}
+
+[dir="rtl"] .animate-rotate-word-in {
+  animation: rotateWordInRTL 0.4s ease-out forwards;
+}
+
+.animate-rotate-word-out {
+  opacity: 0;
+  transform: translateX(30%);
+  transition: opacity 0.15s ease-in, transform 0.15s ease-in;
+}
+
+[dir="rtl"] .animate-rotate-word-out {
+  transform: translateX(-30%);
+}
+
+.shimmer {
+  background: linear-gradient(90deg, transparent, hsl(0 0% 100% / 0.4), transparent);
+  background-size: 200% 100%;
+  animation: shimmer 2s infinite;
+}
+
+.pulse-glow {
+  animation: pulse-glow 2s ease-in-out infinite;
+}
+
+/* Hide scrollbar but keep functionality */
+.scrollbar-hide {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
+.scrollbar-hide::-webkit-scrollbar {
+  display: none;
+}
+
+/* Safe area for mobile notch */
+.mobile-safe-top {
+  padding-top: max(1rem, env(safe-area-inset-top));
+}
+
+/* Edge fade for horizontal scroll indicators */
+.scroll-fade-x {
+  mask-image: linear-gradient(to right, transparent, black 1rem, black calc(100% - 1rem), transparent);
+}
+
+/* ========== Mobile Responsive Utilities ========== */
+
+/* Touch target enforcement - 44px minimum for accessibility */
+.touch-target-44 {
+  min-height: 44px;
+  min-width: 44px;
+}
+
+/* Sticky bottom action bar for mobile */
+.mobile-sticky-actions {
+  @apply fixed bottom-0 left-0 right-0 p-4 bg-background/95 backdrop-blur-sm border-t border-border z-40;
+  padding-bottom: max(1rem, env(safe-area-inset-bottom));
+}
+
+/* RTL-aware sticky bottom */
+[dir="rtl"] .mobile-sticky-actions {
+  @apply left-0 right-0;
+}
+
+/* Mobile card list container - shown on mobile, hidden on desktop */
+.mobile-card-list {
+  @apply block md:hidden space-y-3;
+}
+
+/* Desktop table container - hidden on mobile, shown on desktop */
+.desktop-table-only {
+  @apply hidden md:block;
+}
+
+/* Mobile full-width button */
+.mobile-full-width-btn {
+  @apply w-full sm:w-auto;
+}
+
+/* Mobile padding adjustments */
+.mobile-compact-padding {
+  @apply p-3 sm:p-4 lg:p-6;
+}
+
+/* Mobile text sizing */
+.mobile-text-sm {
+  @apply text-sm sm:text-base;
+}
+
+/* Mobile-friendly card */
+.mobile-card {
+  @apply rounded-lg border border-border bg-card p-4 shadow-sm;
+}
+
+/* Ensure proper spacing for mobile sticky bottom actions */
+.has-sticky-bottom {
+  @apply pb-24 md:pb-0;
+}
+
+/* ========== How It Works Section Animations ========== */
+
+/* Step fade-up stagger */
+.hiw-step-appear {
+  animation: hiwStepAppear 0.6s ease-out forwards;
+}
+
+@keyframes hiwStepAppear {
+  from {
+    opacity: 0;
+    transform: translateY(24px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+/* Connector boomerang travel LTR */
+.hiw-connector-travel {
+  animation: hiwTravelLTR 4s linear 0.3s infinite;
+}
+
+@keyframes hiwTravelLTR {
+  0% {
+    left: 0%;
+    opacity: 0;
+    transform: rotate(25deg);
+  }
+  5% {
+    opacity: 1;
+  }
+  92% {
+    opacity: 1;
+  }
+  97% {
+    left: 100%;
+    opacity: 0;
+    transform: rotate(25deg);
+  }
+  100% {
+    left: 100%;
+    opacity: 0;
+    transform: rotate(25deg);
+  }
+}
+
+/* Connector boomerang travel RTL */
+.hiw-connector-travel-rtl {
+  animation: hiwTravelRTL 4s linear 0.3s infinite;
+}
+
+@keyframes hiwTravelRTL {
+  0% {
+    right: 0%;
+    opacity: 0;
+    transform: rotate(205deg);
+  }
+  5% {
+    opacity: 1;
+  }
+  92% {
+    opacity: 1;
+  }
+  97% {
+    right: 100%;
+    opacity: 0;
+    transform: rotate(205deg);
+  }
+  100% {
+    right: 100%;
+    opacity: 0;
+    transform: rotate(205deg);
+  }
+}

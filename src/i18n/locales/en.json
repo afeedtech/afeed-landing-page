@@ -1,0 +1,909 @@
+{
+  "nav": {
+    "builtFor": "For Knowledge Creators",
+    "features": "Features",
+    "whyAfeed": "Platform",
+    "whatYouCanSell": "What you can sell",
+    "howItWorks": "How It Works",
+    "creators": "Creators",
+    "pricing": "Pricing",
+    "faq": "FAQs",
+    "contact": "Contact",
+    "login": "Log in",
+    "startFree": "Start for free"
+  },
+  "hero": {
+    "title": "Turn your knowledge into income",
+    "titlePrefix": "Turn your",
+    "titleSuffix": "into income",
+    "rotatingWords": ["Knowledge", "Passion", "Experience", "Followers"],
+    "subtitle": "Launch a simple, professional page - your personal store. Sell digital products and services with zero revenue share.",
+    "cta": "Start for free",
+    "ctaSecondary": "View examples",
+    "trust1": "No revenue sharing",
+    "trust2": "Start selling fast",
+    "trust3": "Built for MENA",
+    "badge": "Built for MENA creators",
+    "stats": {
+      "creators": "Creators",
+      "paidToCreators": "KWD paid to creators",
+      "productsSold": "Products sold",
+      "creatorRating": "Creator rating"
+    }
+  },
+  "socialProof": {
+    "title": "Trusted by Creators",
+    "subtitle": "Join thousands of creators who chose Afeed to grow their business",
+    "viewPage": "View page",
+    "badge": "Trusted by 10,000+ creators",
+    "earned": "earned",
+    "featuredIn": "As featured in",
+    "testimonial1": {
+      "text": "Afeed helped me launch my coaching business in days, not months. The Arabic support made all the difference.",
+      "author": "Sarah Al-Rashid",
+      "role": "Life Coach"
+    },
+    "testimonial2": {
+      "text": "Finally, a platform that understands MENA creators. No hidden fees, just simple payouts.",
+      "author": "Ahmed Hassan",
+      "role": "Business Consultant"
+    },
+    "testimonial3": {
+      "text": "My students love the clean checkout experience. Conversion rates went up 40% after switching.",
+      "author": "Nour Khalil",
+      "role": "Fitness Trainer"
+    }
+  },
+  "value": {
+    "title": "Own your platform. Grow on your terms.",
+    "subtitle": "The complete system to sell, get paid, and grow - without giving up control.",
+    "learnMore": "Learn more",
+    "card1": {
+      "title": "Your Professional Storefront",
+      "description": "A professional digital storefront that reflects your expertise and builds trust from the first click."
+    },
+    "card2": {
+      "title": "Sell What You Know",
+      "description": "Turn your knowledge into structured offers that your audience is ready to pay for."
+    },
+    "card3": {
+      "title": "Secure Payments. Full Earnings.",
+      "description": "Receive every payment securely and keep 100% of your earnings - always."
+    },
+    "card4": {
+      "title": "Smart Insights to Help You Grow",
+      "description": "See what drives sales, understand your audience, and scale what works."
+    },
+    "card5": {
+      "title": "Dedicated Support & Guidance",
+      "description": "You're not alone. Get real guidance from a team invested in your success."
+    }
+  },
+  "support": {
+    "highlight1": "Dedicated content creator advisor",
+    "highlight2": "Strategic guidance to maximize your impact",
+    "highlight3": "World-class experience for you and your audience"
+  },
+  "sell": {
+    "title": "What can you sell on Afeed?",
+    "subtitle": "If it's digital, you can sell it.",
+    "courses": "Courses",
+    "coursesDesc": "Pre-recorded lessons your audience can take anytime",
+    "sessions": "Live Sessions",
+    "sessionsDesc": "1:1 or group calls, workshops, and consultations",
+    "programs": "Programs",
+    "programsDesc": "Structured journeys with multiple phases",
+    "memberships": "Memberships",
+    "membershipsDesc": "Recurring access to exclusive content",
+    "downloads": "Digital Downloads",
+    "downloadsDesc": "E-books, guides, templates, and more"
+  },
+  "howItWorks": {
+    "titlePart1": "Launch in ",
+    "titleHighlight": "15",
+    "titlePart2": " minutes. Start earning today.",
+    "subtitle": "No tech skills. No upfront fees. Start free - you only pay when you make money.",
+    "step1": {
+      "title": "Create your account",
+      "description": "Your professional storefront is ready - live in seconds, no payment required."
+    },
+    "step2": {
+      "title": "Build your digital storefront",
+      "description": "Customize your page, add your offers, and set your prices - exactly your way."
+    },
+    "step3": {
+      "title": "Share your link. Get paid.",
+      "description": "Send your link to your audience and receive payments directly - locally and securely."
+    },
+    "cta": "Start for free",
+    "ctaMicro": "Start free. No credit card required. No setup fees."
+  },
+  "features": {
+    "title": "One platform, all the features",
+    "subtitle": "Built for creators who want simplicity without compromise.",
+    "badge": "All-in-one platform",
+    "storefront": {
+      "title": "Creator Storefront",
+      "description": "Launch your page instantly."
+    },
+    "products": {
+      "title": "Products",
+      "description": "Courses, sessions, and digital downloads"
+    },
+    "audience": {
+      "title": "Audience Insights",
+      "description": "Segments, profiles, and behavioral analytics"
+    },
+    "marketing": {
+      "title": "Marketing Campaigns",
+      "description": "Email, WhatsApp, Telegram - more channels coming"
+    },
+    "payments": {
+      "title": "Payments & Payouts",
+      "description": "Weekly, monthly, or immediate payouts"
+    },
+    "support": {
+      "title": "Support & Guidance",
+      "description": "Dedicated team to help you succeed"
+    }
+  },
+  "payouts": {
+    "title": "Get paid without losing earnings",
+    "subtitle": "No revenue share. Ever. Only standard payment processing fees.",
+    "highlight1": "0% platform fee",
+    "highlight2": "Flexible payout schedules",
+    "highlight3": "Multiple payment methods",
+    "scheduleTitle": "Payout Schedule",
+    "weekly": "Weekly",
+    "monthly": "Monthly",
+    "immediate": "Immediate",
+    "badge": "0% platform fees",
+    "secure": "Secure",
+    "availableBalance": "Available Balance",
+    "nextPayout": "Next payout: Tomorrow",
+    "everyFriday": "Every Friday",
+    "firstOfMonth": "1st of month",
+    "instant": "Instant",
+    "testimonialText": "Finally getting paid on time, every time. No surprises."
+  },
+  "analytics": {
+    "title": "Smart insights to help you grow",
+    "subtitle": "Know what's working, where visitors come from, and which products convert.",
+    "metric1": "Visitors",
+    "metric2": "Conversion",
+    "metric3": "Revenue",
+    "badge": "Smart insights",
+    "dashboardTitle": "Dashboard Overview",
+    "last30Days": "Last 30 days",
+    "revenueTrend": "Revenue Trend",
+    "topProduct": "Top Product",
+    "topSource": "Top Source",
+    "sampleProduct": "Fintech Masterclass",
+    "sampleSource": "Instagram (42%)",
+    "benefit1": "Track visitor behavior and sources",
+    "benefit2": "Identify your best-performing products",
+    "benefit3": "Understand your audience segments",
+    "benefit4": "Optimize for higher conversions"
+  },
+  "checkout": {
+    "title": "Smooth buying experience",
+    "subtitle": "Simple checkout, low friction, higher conversions.",
+    "feature1": "Secure payments",
+    "feature2": "Multiple payment options",
+    "feature3": "Optimized user experience",
+    "badge": "Secure & Fast",
+    "stepCart": "Cart",
+    "stepDetails": "Details",
+    "stepPay": "Pay",
+    "completePurchase": "Complete Purchase",
+    "productName": "Master Your Mindset",
+    "productDuration": "8-module course",
+    "creditCard": "Credit Card",
+    "applePay": "Apple Pay",
+    "payButton": "Pay",
+    "securePayment": "Secure payment powered by UPayments",
+    "conversionStat": "+40%",
+    "conversionLabel": "Higher conversions",
+    "ssl": "256-bit SSL",
+    "pci": "PCI Compliant",
+    "secure3d": "3D Secure"
+  },
+  "pricing": {
+    "badge": "Simple pricing",
+    "title": "Simple, transparent pricing",
+    "subtitle": "Start free, upgrade when you're ready. No hidden fees.",
+    "popular": "Most Popular",
+    "perMonth": "month",
+    "monthly": "Monthly",
+    "annual": "Annual",
+    "billedAnnually": "billed annually",
+    "savePercent": "Save up to 18%",
+    "recipientsMonth": "recipients/month",
+    "membershipsIncluded": "Memberships included",
+    "membershipsNotIncluded": "Memberships not included",
+    "cta": "Get started",
+    "footer": "All plans include 0% platform fees. You only pay standard payment processing fees.",
+    "plans": {
+      "basic": {
+        "name": "Basic",
+        "description": "For those just starting out"
+      },
+      "growth": {
+        "name": "Growth",
+        "description": "For those looking to grow"
+      },
+      "pro": {
+        "name": "Pro",
+        "description": "For those who aspire to grow without limits"
+      }
+    },
+    "features": {
+      "coursesUnlimited": "Courses & Live Sessions: Unlimited",
+      "contentStudio": "Content Studio: Full access",
+      "analyticsBasic": "Analytics: Business, Audience, Products",
+      "analyticsFull": "Analytics: Full analytics depth",
+      "channelsBasic": "Email, WhatsApp, Telegram channels",
+      "channelsAll": "All channels (Instagram, SMS, Push coming soon)",
+      "freePayouts": "Free weekly & monthly payouts",
+      "immediatePayout": "Immediate payout: 1 KWD per request",
+      "membershipsIncluded": "Memberships: Included",
+      "analyticsInsights": "Analytics: Business, Audience, Product insights",
+      "headerFeatures": "Features",
+      "headerPaymentFees": "Payment Fees*",
+      "storage20gb": "Up to 20GB content storage",
+      "storage130gb": "Up to 130GB content storage",
+      "products10": "Up to 10 published products",
+      "products60": "Up to 60 published products",
+      "subscribers100": "Up to 100 active subscribers",
+      "subscribers600": "Up to 600 active subscribers",
+      "liveSessions1200": "Up to 1,200 minutes of live sessions",
+      "zoomMeetings12000": "12,000 minutes of Zoom meetings",
+      "storageUnlimited": "Unlimited content storage",
+      "productsUnlimited": "Unlimited published products",
+      "subscribersUnlimited": "Unlimited active subscribers",
+      "zoomUnlimited": "Unlimited Zoom time",
+      "debitCard": "Debit cards: 150 Fils per transaction",
+      "creditCard": "Credit cards: 2.5% of transaction amount",
+      "applePay": "Apple Pay (credit cards): 2.5% of transaction amount + 100 Fils"
+    }
+  },
+  "faq": {
+    "title": "Frequently Asked Questions",
+    "badge": "Got questions?",
+    "ctaTitle": "Ready to start selling?",
+    "ctaSubtitle": "Join creators who are already monetizing their expertise with Afeed.",
+    "ctaFootnote": "Free to start • No credit card required",
+    "q1": "What is Afeed?",
+    "a1": "Afeed is a platform that helps creators sell digital products and services. Think of it as your personal online store - beautiful, simple, and built for MENA.",
+    "q2": "What can I sell?",
+    "a2": "Courses, live sessions, e-books, templates, and any digital product. If you can deliver it online, you can sell it on Afeed.",
+    "q3": "How do payouts work?",
+    "a3": "You choose your payout schedule - weekly, monthly, or immediate. Funds are transferred directly to your bank account with full transparency.",
+    "q4": "Does Afeed take a cut?",
+    "a4": "No revenue share. You keep 100% of your earnings minus standard payment processing fees (typically 2-3%).",
+    "q5": "Do I need a website?",
+    "a5": "No. Afeed gives you a professional storefront page. Just share your link and start selling.",
+    "q6": "Can I sell in Arabic and English?",
+    "a6": "Yes! Afeed fully supports both languages with proper RTL layout for Arabic content.",
+    "q7": "What if I need help?",
+    "a7": "Our support team is here for you. Reach out anytime through the platform or email.",
+    "q8": "Is there a free plan?",
+    "a8": "Yes, you can start for free and only pay processing fees when you make sales."
+  },
+  "footer": {
+    "product": "Product",
+    "company": "Company",
+    "resources": "Resources",
+    "legal": "Legal",
+    "description": "The all-in-one platform for MENA creators to sell digital products and services.",
+    "terms": "Terms",
+    "privacy": "Privacy",
+    "cookies": "Cookies",
+    "contact": "Contact",
+    "copyright": "© 2026 Afeed. All rights reserved.",
+    "features": "Features",
+    "pricing": "Pricing",
+    "examples": "Examples",
+    "updates": "Updates",
+    "about": "About",
+    "blog": "Blog",
+    "careers": "Careers",
+    "press": "Press",
+    "helpCenter": "Help Center",
+    "creatorGuide": "Creator Guide",
+    "apiDocs": "API Docs",
+    "status": "Status"
+  },
+  "contact": {
+    "title": "Contact Us",
+    "subtitle": "Questions, bug reports, feature requests or feedback? We are here to help!",
+    "emailLabel": "Email Address",
+    "subjectLabel": "Subject",
+    "messageLabel": "How can we help?",
+    "sendButton": "Send Message",
+    "whatsappPrefix": "Or reach out via WhatsApp at",
+    "successMessage": "Message sent successfully!"
+  },
+  "auth": {
+    "continueWithGoogle": "Continue with Google",
+    "continueWithApple": "Continue with Apple",
+    "or": "or",
+    "termsCheckbox": "I agree to the Terms & Privacy Policy",
+    "invalidEmail": "Please enter a valid email",
+    "invalidPassword": "Password must be at least 8 characters",
+    "invalidCredentials": "Invalid email or password",
+    "accountExists": "An account with this email already exists",
+    "acceptTerms": "Please accept the terms to continue",
+    "fillAllFields": "Please fill in all fields",
+    "resetEmailSent": "Check your email for reset instructions",
+    "checkEmail": "We've sent password reset instructions to your email address.",
+    "resetPassword": "Reset your password",
+    "resetPasswordDesc": "Enter your email and we'll send you instructions to reset your password.",
+    "sendResetLink": "Send reset link",
+    "backToLogin": "Back to login"
+  },
+  "login": {
+    "title": "Welcome back",
+    "subtitle": "Log in to your Afeed account",
+    "helperText": "Log in to manage your page, products, and audience.",
+    "email": "Email",
+    "password": "Password",
+    "submit": "Log in",
+    "forgotPassword": "Forgot password?",
+    "noAccount": "Don't have an account?",
+    "signUp": "Sign up"
+  },
+  "signup": {
+    "title": "Create your Afeed account",
+    "subtitle": "Create your Afeed account and start selling",
+    "helperText": "Start selling your knowledge in minutes.",
+    "name": "Full name",
+    "email": "Email",
+    "password": "Password",
+    "submit": "Create account",
+    "hasAccount": "Already have an account?",
+    "login": "Log in",
+    "terms": "By signing up, you agree to our Terms and Privacy Policy."
+  },
+  "onboarding": {
+    "skip": "Skip for now",
+    "continue": "Continue",
+    "goToMyPage": "Go to My Page",
+    "step1": {
+      "title": "What best describes what you want to share?",
+      "education": "Education",
+      "coaching": "Coaching",
+      "fitness": "Fitness & Wellness",
+      "business": "Business & Finance",
+      "creative": "Creative Skills",
+      "other": "Other"
+    },
+    "step2": {
+      "title": "Set up your page",
+      "pageName": "Page name",
+      "pageHandle": "Page handle",
+      "available": "Available",
+      "taken": "This handle is taken"
+    },
+    "step3": {
+      "title": "How do you want to get paid?",
+      "weekly": "Weekly",
+      "weeklyDesc": "Every Thursday",
+      "monthly": "Monthly",
+      "monthlyDesc": "End of each month",
+      "immediate": "Immediate",
+      "immediateDesc": "Available later",
+      "helper": "You can change this anytime later."
+    },
+    "stepLanguage": {
+      "title": "What language will your page be in?",
+      "subtitle": "Choose how your content will be displayed to visitors",
+      "optionEn": "English Only",
+      "optionEnDesc": "Your page and products will be in English",
+      "optionAr": "Arabic Only",
+      "optionArDesc": "Your page and products will be in Arabic",
+      "optionBoth": "Both Languages",
+      "optionBothDesc": "Provide content in both for maximum reach"
+    }
+  },
+  "sidebar": {
+    "myPage": "My Page",
+    "myBusiness": "My Business",
+    "products": "Products",
+    "audience": "Audience",
+    "campaigns": "Marketing Campaigns",
+    "contentStudio": "Content Studio",
+    "payments": "Payments",
+    "settings": "Settings",
+    "logout": "Log out",
+    "collapse": "Collapse sidebar",
+    "expand": "Expand sidebar",
+    "creatorRole": "Creator"
+  },
+  "myPage": {
+    "title": "My Page",
+    "subtitle": "Your public creator page - what your audience sees",
+    "add": "Add",
+    "edit": "Edit",
+    "preview": "Preview",
+    "exit": "Exit",
+    "visitor": "Visitor",
+    "paidUser": "Paid User",
+    "editPageLayout": "Edit Page Layout",
+    "customizeSettings": "Customize your page template and settings",
+    "profileTemplate": "Profile Template",
+    "templates": {
+      "authority": "Professional Authority",
+      "authorityDesc": "Cover image with overlapping profile, left-aligned. Emphasis on credibility.",
+      "creator": "Creator-First",
+      "creatorDesc": "Centered profile, personal and approachable layout.",
+      "minimal": "Minimal / Product-Led",
+      "minimalDesc": "Compact profile, text-forward, clean layout."
+    },
+    "productsSection": "Products",
+    "productsDesc": "Manage your products, drafts, and archived items from the Products page.",
+    "manageProducts": "Manage Products",
+    "themeColors": "Theme Colors",
+    "themeDesc": "Choose a primary color theme for your entire app",
+    "addCourse": "Add Course",
+    "addSession": "Add Session",
+    "addProgram": "Add Program",
+    "addMembership": "Add Membership",
+    "editMode": "Edit Mode",
+    "templateChanged": "Template changed to {{name}}"
+  },
+  "myBusiness": {
+    "title": "My Business",
+    "subtitle": "Understand your business performance at a glance",
+    "tabs": {
+      "overview": "Overview",
+      "audience": "Audience",
+      "products": "Products",
+      "insights": "Product Insights"
+    }
+  },
+  "products": {
+    "title": "Products",
+    "subtitle": "Manage your digital products, drafts, and archived items",
+    "createProduct": "Create Product",
+    "createNew": "Create New Product",
+    "selectType": "What type of product would you like to create?",
+    "types": {
+      "course": "Online Course",
+      "session": "Live Session",
+      "program": "Program",
+      "membership": "Membership"
+    },
+    "status": {
+      "all": "All",
+      "published": "Published",
+      "draft": "Drafts",
+      "archived": "Archived"
+    },
+    "searchProducts": "Search products...",
+    "noProducts": "No products yet",
+    "noProductsFound": "No products found",
+    "noProductsStatus": "No {{status}} products",
+    "tryDifferentSearch": "Try a different search term",
+    "createFirst": "Create your first product to get started",
+    "actions": {
+      "view": "View",
+      "edit": "Edit",
+      "viewOnMyPage": "View on My Page",
+      "publish": "Publish",
+      "archive": "Archive",
+      "restoreToDraft": "Restore to Draft",
+      "delete": "Delete"
+    },
+    "featured": "Featured",
+    "toasts": {
+      "published": "Product published and visible on your page",
+      "draft": "Product moved to drafts",
+      "archived": "Product archived. Existing users retain access.",
+      "changesSaved": "Changes saved successfully",
+      "deleted": "Product deleted permanently"
+    },
+    "archiveConfirm": {
+      "title": "Archive this product?",
+      "description": "Archived products won't be visible to new customers, but existing users will keep their access.",
+      "cancel": "Cancel",
+      "confirm": "Archive Product"
+    }
+  },
+  "sessions": {
+    "title": "Live Sessions",
+    "subtitle": "Manage your consultations and workshops",
+    "createSession": "Create Session",
+    "upcoming": "Upcoming",
+    "completed": "Completed",
+    "1to1Session": "1:1 Session",
+    "groupWorkshop": "Group Workshop",
+    "booked": "booked",
+    "earned": "earned",
+    "editBtn": "Edit",
+    "startSession": "Start Session",
+    "viewRecording": "View Recording",
+    "createNew": {
+      "title": "Create New Session",
+      "description": "Set up a new live session for your audience",
+      "sessionTitle": "Session Title",
+      "titlePlaceholder": "e.g., Content Strategy Workshop",
+      "descLabel": "Description",
+      "descPlaceholder": "What will attendees learn?",
+      "sessionType": "Session Type",
+      "1to1Consultation": "1:1 Consultation",
+      "groupWorkshop": "Group Workshop",
+      "duration": "Duration",
+      "minutes": "minutes",
+      "price": "Price",
+      "maxCapacity": "Max Capacity",
+      "cancel": "Cancel",
+      "create": "Create Session"
+    }
+  },
+  "payments": {
+    "title": "Payments",
+    "subtitle": "Track your revenue and payouts",
+    "downloadReport": "Download Report",
+    "balance": {
+      "availableForPayout": "Available for Payout",
+      "readyToWithdraw": "Ready to withdraw now",
+      "requestPayout": "Request Payout",
+      "pending": "Pending",
+      "recentSalesClearing": "Recent sales still clearing",
+      "scheduledForPayout": "Scheduled for Payout",
+      "includedInNext": "Included in next payout",
+      "paidOutLifetime": "Paid Out (Lifetime)",
+      "totalPaidToDate": "Total paid to date"
+    },
+    "schedule": {
+      "title": "Payout Schedule & Method",
+      "edit": "Edit",
+      "currentSchedule": "Current Schedule",
+      "weeklyThursday": "Weekly (Every Thursday)",
+      "monthlyLastDay": "Monthly (Last working day)",
+      "dailyImmediate": "Daily (Immediate)",
+      "nextPayout": "Next payout",
+      "payoutMethod": "Payout Method",
+      "verified": "Verified",
+      "needsAction": "Needs action",
+      "updated": "Updated",
+      "free": "Free",
+      "helperText": "Weekly and monthly payouts are free. You can request an immediate payout for a 1 KWD fee."
+    },
+    "upcomingPayouts": {
+      "title": "Upcoming Payouts",
+      "weeklyPayout": "Weekly Payout",
+      "monthlyPayout": "Monthly Payout",
+      "immediatePayout": "Immediate Payout",
+      "scheduled": "scheduled",
+      "completed": "completed",
+      "helperText": "These payouts are scheduled based on your selected payout option."
+    },
+    "payoutHistory": {
+      "title": "Payout History",
+      "date": "Date",
+      "amount": "Amount",
+      "type": "Type",
+      "status": "Status",
+      "referenceId": "Reference ID",
+      "weekly": "Weekly",
+      "monthly": "Monthly",
+      "immediate": "Immediate",
+      "failed": "Failed",
+      "retryInfo": "Retry scheduled"
+    },
+    "transactions": {
+      "title": "Recent Transactions",
+      "description": "Description",
+      "customer": "Customer",
+      "amount": "Amount",
+      "fee": "Fee",
+      "net": "Net",
+      "status": "Status",
+      "date": "Date",
+      "type": "Type",
+      "sale": "Sale",
+      "refund": "Refund",
+      "payout": "Payout",
+      "adjustment": "Adjustment"
+    },
+    "toasts": {
+      "payoutRequested": "Payout requested successfully",
+      "payoutDesc": "Your funds will be processed immediately.",
+      "reportDownloaded": "Report downloaded",
+      "reportDesc": "Full report downloaded successfully"
+    }
+  },
+  "customers": {
+    "title": "Customers",
+    "subtitle": "Manage your customer relationships",
+    "exportCsv": "Export CSV",
+    "stats": {
+      "totalCustomers": "Total Customers",
+      "totalPurchases": "Total Purchases",
+      "totalRevenue": "Total Revenue"
+    },
+    "searchCustomers": "Search customers...",
+    "table": {
+      "customer": "Customer",
+      "productsPurchased": "Products Purchased",
+      "totalSpent": "Total Spent",
+      "joined": "Joined",
+      "lastPurchase": "Last Purchase"
+    },
+    "actions": {
+      "viewProfile": "View Profile",
+      "sendEmail": "Send Email"
+    }
+  },
+  "settings": {
+    "title": "Settings",
+    "subtitle": "Manage your account and preferences",
+    "tabs": {
+      "profile": "Profile",
+      "payouts": "Payouts",
+      "subscription": "Subscription",
+      "discounts": "Discount Codes",
+      "preferences": "Preferences",
+      "notifications": "Notifications"
+    },
+    "profile": {
+      "title": "Profile Information",
+      "changePhoto": "Change Photo",
+      "photoHint": "JPG, PNG or GIF. Max 2MB.",
+      "firstName": "First Name",
+      "lastName": "Last Name",
+      "email": "Email Address",
+      "mobileNumber": "Mobile Number",
+      "mobileVisible": "Visible to users",
+      "mobileVisibleDesc": "Your mobile number is visible on your public page",
+      "mobileHiddenDesc": "Only used for Afeed operations and account support",
+      "saveChanges": "Save Changes"
+    },
+    "payoutSettings": {
+      "title": "Payout Settings",
+      "bankConnected": "Bank Account Connected",
+      "verified": "Verified",
+      "payoutSchedule": "Payout Schedule",
+      "weekly": "Weekly (Every Thursday)",
+      "monthly": "Monthly (End of month)",
+      "immediate": "Immediate (1 KWD fee)",
+      "minimumAmount": "Minimum Payout Amount",
+      "minimumAmountHint": "Payouts will only process when balance exceeds this amount.",
+      "updateBankDetails": "Update Bank Details",
+      "saveSettings": "Save Settings"
+    },
+    "preferences": {
+      "title": "Preferences",
+      "timezone": "Timezone",
+      "currency": "Currency",
+      "save": "Save Preferences"
+    },
+    "pageLanguage": {
+      "title": "Page Language",
+      "description": "Controls what language(s) your public page displays in",
+      "optionEn": "English Only",
+      "optionEnDesc": "Your page will be displayed in English",
+      "optionAr": "Arabic Only",
+      "optionArDesc": "Your page will be displayed in Arabic",
+      "optionBoth": "Both Languages",
+      "optionBothDesc": "Enter content in both English and Arabic"
+    },
+    "notifications": {
+      "title": "Notification Preferences",
+      "emailNotifications": "Email Notifications",
+      "pushNotifications": "Push Notifications",
+      "newSales": "New Sales",
+      "newSalesDesc": "Get notified when someone purchases your product",
+      "sessionBookings": "Session Bookings",
+      "sessionBookingsDesc": "Get notified when someone books a session",
+      "payoutUpdates": "Payout Updates",
+      "payoutUpdatesDesc": "Get notified when payouts are processed",
+      "saveNotifications": "Save Notifications"
+    },
+    "toasts": {
+      "saved": "Settings saved successfully!"
+    }
+  },
+  "marketing": {
+    "title": "Marketing Campaigns",
+    "subtitle": "Reach your audience across multiple channels.",
+    "newCampaign": "New Campaign",
+    "connectedChannels": "Connected Channels",
+    "savedSegments": "Saved Segments",
+    "campaigns": "Campaigns",
+    "noSegments": "No saved segments yet",
+    "noSegmentsDesc": "Create segments in the Audience tab to target specific groups of users.",
+    "goToAudience": "Go to Audience",
+    "channel": {
+      "connected": "Connected",
+      "notConnected": "Not Connected",
+      "comingSoon": "Coming Soon",
+      "connect": "Connect",
+      "manage": "Manage"
+    },
+    "toasts": {
+      "channelConnected": "Channel Connected",
+      "channelConnectedDesc": "Successfully connected {{channel}}.",
+      "channelDisconnected": "Channel Disconnected",
+      "channelDisconnectedDesc": "The channel has been disconnected.",
+      "campaignSent": "Campaign Sent!",
+      "campaignScheduled": "Campaign Scheduled",
+      "draftSaved": "Draft Saved",
+      "campaignDuplicated": "Campaign Duplicated",
+      "campaignDeleted": "Campaign Deleted"
+    }
+  },
+  "contentStudio": {
+    "title": "Content Studio",
+    "subtitle": "Create content that works. Repeat what wins.",
+    "tabs": {
+      "library": "Library",
+      "create": "Create",
+      "scheduled": "Scheduled"
+    },
+    "toasts": {
+      "postScheduled": "Post Scheduled!",
+      "postScheduledDesc": "Your content will be posted to {{platform}} on {{date}} at {{time}}.",
+      "draftSaved": "Draft Saved",
+      "draftSavedDesc": "Your script has been saved as a draft."
+    }
+  },
+  "common": {
+    "add": "Add",
+    "preview": "Preview",
+    "view": "View",
+    "edit": "Edit",
+    "delete": "Delete",
+    "save": "Save",
+    "cancel": "Cancel",
+    "search": "Search",
+    "loading": "Loading...",
+    "error": "Error",
+    "success": "Success",
+    "confirm": "Confirm",
+    "close": "Close",
+    "back": "Back",
+    "next": "Next",
+    "previous": "Previous",
+    "all": "All",
+    "none": "None",
+    "yes": "Yes",
+    "no": "No",
+    "currency": "KWD"
+  },
+  "mock": {
+    "storefront": {
+      "profileTitle": "MENA Fintech Strategist & Advisor",
+      "reviews": "reviews",
+      "pro": "Pro",
+      "orderComplete": "Order Complete!",
+      "earned": "earned",
+      "visitorsToday": "visitors today",
+      "products": {
+        "masterclass": {
+          "title": "Digital Payments & Open Banking Masterclass",
+          "description": "12-module deep dive",
+          "badge": "Bestseller"
+        },
+        "consultation": {
+          "title": "1:1 Fintech Strategy Consultation",
+          "description": "60-min session",
+          "badge": "Popular"
+        },
+        "downloads": {
+          "title": "Fintech Trends 2025 Report",
+          "description": "Comprehensive PDF guide",
+          "badge": "New"
+        }
+      }
+    },
+    "myPage": {
+      "title": "My Page",
+      "live": "Live",
+      "editPage": "Edit Page",
+      "profileTitle": "MENA Fintech Strategist",
+      "products": {
+        "masterclass": "Masterclass",
+        "consultation": "Consultation",
+        "downloads": "PDF Report"
+      },
+      "stats": {
+        "pageViews": "Page Views",
+        "conversions": "Conversions",
+        "revenue": "Revenue"
+      }
+    },
+    "myBusiness": {
+      "title": "My Business",
+      "last7Days": "Last 7 days",
+      "tabs": {
+        "overview": "Overview",
+        "audience": "Audience",
+        "products": "Products",
+        "insights": "Insights"
+      },
+      "metrics": {
+        "pageViews": "Page Views",
+        "sales": "Sales",
+        "revenue": "Revenue",
+        "conversion": "Conversion"
+      },
+      "revenueTrend": "Revenue Trend"
+    },
+    "sidebar": {
+      "myPage": "My Page",
+      "myBusiness": "My Business",
+      "sales": "Sales",
+      "appointments": "Appointments",
+      "settings": "Settings"
+    }
+  },
+  "creators": {
+    "nouraKhalid": {
+      "name": "Noura Khalid",
+      "headline": "Digital Marketing Expert & Brand Strategist",
+      "credentials": ["10+ Years Experience", "Fortune 500 Background", "500+ Students"]
+    },
+    "ahmedHassan": {
+      "name": "Ahmed Hassan",
+      "headline": "Fitness Coach & Nutrition Specialist",
+      "credentials": ["Certified PT", "Nutrition Coach", "1000+ Clients"]
+    },
+    "saraAlmutairi": {
+      "name": "Sara Al-Mutairi",
+      "headline": "Business Coach for Women Entrepreneurs",
+      "credentials": ["Forbes Featured", "200+ Mentees", "Serial Entrepreneur"]
+    },
+    "omarQasim": {
+      "name": "Omar Qasim",
+      "headline": "Photography & Visual Storytelling",
+      "credentials": ["Award Winner", "15 Years Pro", "Magazine Published"]
+    },
+    "laylaIbrahim": {
+      "name": "Layla Ibrahim",
+      "headline": "Arabic Calligraphy Artist & Teacher",
+      "credentials": ["Art Dubai Featured", "Master Calligrapher", "20+ Years"]
+    },
+    "khalidNasser": {
+      "name": "Khalid Nasser",
+      "headline": "Investment & Personal Finance Educator",
+      "credentials": ["Ex-Investment Banker", "CFA Charterholder", "5K+ Students"]
+    }
+  },
+  "builtFor": {
+    "title": "Built for people who turn expertise into income",
+    "subtitle": "Afeed is built around how Arab audiences discover, trust, and buy - so you can focus on what you do best.",
+    "cards": [
+      {
+        "title": "Coaches & Consultants",
+        "description": "No more WhatsApp bookings, payment links, and follow-up reminders. Run your entire practice professionally - live sessions, courses, analytics, and payments - from one place built for this market.",
+        "tags": ["Life Coach", "Fitness Coach", "Business Consultant", "Career Advisor", "Therapist", "Leadership Coach", "+ more"]
+      },
+      {
+        "title": "Experts",
+        "description": "You're already the expert. Afeed gives you a professional storefront to sell your knowledge online - without needing a tech team or a foreign payment setup.",
+        "tags": ["Parenting", "Legal Advisor", "Engineer", "Nutritionist", "HR Trainer", "Financial Advisor", "+ more"]
+      },
+      {
+        "title": "Professional Creators",
+        "description": "You've built an audience that listens. Stop depending on brand deals and algorithms - and start earning directly from the people who already trust you.",
+        "tags": ["Personal Finance", "Career Guidance", "Chef", "Self Development", "Productivity", "+ more"]
+      }
+    ],
+    "featured": {
+      "badge": "✦ Our Biggest Differentiator",
+      "title": "MENA Knowledge Creators",
+      "description": "Your audience has specific expectations. Afeed is built around how they think, trust, pay, and engage - not just the language they speak.",
+      "checklist": [
+        "0% commission on revenue",
+        "Local payment gateways that actually work here",
+        "Local payouts, no delays",
+        "Arabic supported platform",
+        "Dedicated Creator Success Team"
+      ],
+      "tags": ["Full Arabic Support", "Local Gateways", "0% Platform Commission"]
+    }
+  }
+}
