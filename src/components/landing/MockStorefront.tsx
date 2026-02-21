@@ -87,32 +87,29 @@ export function MockStorefront() {
         ))}
       </div>
 
-      {/* Product grid - updated card style */}
+      {/* Product grid - full-bleed image cards */}
       <div className="grid grid-cols-3 gap-2 p-3">
         {products.map((product, i) => (
-          <div key={i} className="rounded-2xl overflow-hidden bg-card border border-border/50 shadow-sm">
-            {/* Product image with overlaid badges */}
-            <div className="relative aspect-[4/5] overflow-hidden">
-              <img src={product.image} alt={product.title} className="w-full h-full object-cover" />
-              {/* Top-left badge */}
-              <span className={cn(
-                "absolute top-1.5 start-1.5 text-[7px] sm:text-[8px] font-bold text-white px-1.5 py-0.5 rounded-full shadow-sm",
-                product.badgeColor
-              )}>
-                {product.badge}
-              </span>
-              {/* Top-right share icon */}
-              <span className="absolute top-1.5 end-1.5 w-5 h-5 sm:w-6 sm:h-6 rounded-full bg-card/80 backdrop-blur-sm flex items-center justify-center shadow-sm">
-                <Link2 className="w-2.5 h-2.5 sm:w-3 sm:h-3 text-muted-foreground" />
-              </span>
-            </div>
-            {/* Product info */}
-            <div className="p-2 pt-2.5">
-              <p className="text-[10px] sm:text-xs font-semibold text-foreground leading-tight line-clamp-2 min-h-[2.5em]">
+          <div key={i} className="relative rounded-2xl overflow-hidden border border-border/50 shadow-sm aspect-[3/4]">
+            {/* Full-bleed product image */}
+            <img src={product.image} alt={product.title} className="absolute inset-0 w-full h-full object-cover" />
+            {/* Top-left badge */}
+            <span className={cn(
+              "absolute top-1.5 start-1.5 z-10 text-[7px] sm:text-[8px] font-bold text-white px-1.5 py-0.5 rounded-full shadow-sm",
+              product.badgeColor
+            )}>
+              {product.badge}
+            </span>
+            {/* Top-right share icon */}
+            <span className="absolute top-1.5 end-1.5 z-10 w-5 h-5 sm:w-6 sm:h-6 rounded-full bg-white/60 backdrop-blur-md flex items-center justify-center shadow-sm">
+              <Link2 className="w-2.5 h-2.5 sm:w-3 sm:h-3 text-muted-foreground" />
+            </span>
+            {/* Bottom glassmorphism overlay */}
+            <div className="absolute inset-x-0 bottom-0 z-10 p-2 pt-6 bg-gradient-to-t from-black/70 via-black/40 to-transparent backdrop-blur-[2px]">
+              <p className="text-[9px] sm:text-[10px] font-semibold text-white leading-tight line-clamp-2">
                 {product.title}
               </p>
-              {/* CTA button */}
-              <button className="w-full mt-2 py-1.5 rounded-full bg-primary text-primary-foreground text-[10px] sm:text-xs font-semibold shadow-sm">
+              <button className="w-full mt-1.5 py-1 rounded-full bg-primary text-primary-foreground text-[9px] sm:text-[10px] font-semibold shadow-sm">
                 {product.price
                   ? formatCurrency(product.price, lang)
                   : (lang === 'ar' ? 'مجاني' : 'Free')}
